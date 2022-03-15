@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hello-container{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-weight: 900;
+    text-align: right;
+    width: 85%;
+}
+
+.text-bloc{
+    margin-bottom: -30px;
+}
+
+.whats{
+    padding-bottom: 0;
+    color: #a64f19;
+    font-size: 60px;
+}
+
+.your{
+    color: #3988a8;
+    font-size: 115px;
+}
+
+.name{
+    color: #a5656b;
+    font-size: 55px;
+}
+
+.hello{
+    color: #7820a2;
+    font-size: 100px;
+}
+
+.name-receive{
+    color: #84a85d;
+    font-size: 12vw;
+}
+
+.form-wyn {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.form-wyn input{
+    color: black;
+    font-weight: 700;
+    text-align: right;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    width: 260px;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.button-hello{
+    cursor: pointer;
+    display: inline-block;
+    width: max-content;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 32px;
+    background-color: #DDE1E4;
+    color: #3988a8;
+}
+
+@media screen and (min-width: 900px){
+
+    .text-bloc{
+        margin-bottom: -60px;
+    }
+
+    .form-wyn {
+        margin-top: 60px;
+    }
+
+    .whats{
+        font-size: 120px;
+    }
+
+    .your{
+        font-size: 230px;
+    }
+
+    .hello{
+        font-size: 200px;
+    }
+
+    .name{
+        font-size: 110px;
+    }
+
+    .name-receive{
+        font-size: 110px;
+    }
+
+    .form-wyn input{
+        font-size: 60px;
+        width: 520px;
+    }
+
+    .button-hello{
+        margin-top: 30px;
+        font-size: 60px;
+    }
+}
