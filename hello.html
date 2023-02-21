@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Hello</title>
+        <script>
+function getNameInParam(){
+    /**
+     * Recover the name in param and display it
+     */ 
+    let name = document.getElementById("name");
+    let name_content = gb.location.params()['name'];
+    name.innerHTML = name_content.toUpperCase();
+}
+        </script>
+    </head>
+    <body>
+        <div class="hello-container">
+            <div class="hello">HELLO</div>
+            <div class="name-receive" id="name"></div>
+        </div>
+    <script>
+gb.onload = getNameInParam();
+    </script>
+    </body>
+</html>
